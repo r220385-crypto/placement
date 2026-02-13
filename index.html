@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <title>Placement Prep Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN SECTION -->
+<div id="loginBox" class="login-box">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="error"></p>
+</div>
+
+<!-- MAIN CONTENT (HIDDEN INITIALLY) -->
+<div id="mainContent" class="hidden">
+
+<header>
+    <div class="logo">PlacementPrep</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Practice</a>
+        <a href="#">Mock Tests</a>
+        <a href="#">Interview Prep</a>
+        <a href="#">Career Guidance</a>
+        <button onclick="logout()">Logout</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Prepare Smart. Perform Better. Get Placed.</h1>
+    <p>A complete placement preparation platform with mock tests, interview preparation and performance analysis.</p>
+    <button class="btn primary">Start Practicing</button>
+    <button class="btn secondary">Take a Mock Test</button>
+</section>
+
+<section class="features">
+    <div class="card">📊 Performance Analysis</div>
+    <div class="card">⏱ Real Exam Environment</div>
+    <div class="card">📚 Structured Practice</div>
+    <div class="card">🎥 Video Explanations</div>
+    <div class="card">📝 One-Page Revision</div>
+</section>
+
+<footer>
+    <p align="center">© 2026 Placement Prep Platform</p>
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
